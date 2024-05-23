@@ -1,0 +1,114 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+/* 
+h1 {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+} */
+/* .body {
+  background-color: #f8f9fa;
+}
+.album-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.album-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.album-card img {
+  width: 100%;
+}
+
+.album-card h2 {
+  margin: 10px 0;
+}
+
+.album-card p {
+  margin-bottom: 10px;
+}
+
+.album-card button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.album-card button:last-child {
+  margin-bottom: 0;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  background-color: rgb(50, 45, 45);
+  color: white;
+}
+.content {
+  /* width: 450px; */
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px;
+}
+.button1 {
+  height: 25px;
+  padding: 8px;
+  background-color: rgb(53, 53, 243);
+  color: aliceblue;
+  border: none;
+  border-radius: 3px;
+}
+.button2 {
+  height: 25px;
+  padding: 8px;
+  background-color: rgb(97, 91, 91);
+  color: aliceblue;
+  border: none;
+  border-radius: 3px;
+}
+.tag-all {
+  background-color: #f5f6f7;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.tag-new img {
+  width: 100%;
+}
+.tag-new {
+  width: 270px;
+}
+/* .tag-2{  background-color: #f5f6f7;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+  justify-content: space-around;
+}}
+.tag-2 img {
+  width: 100%;
+}
+.tag-2 {
+  width: 270px;
+} */

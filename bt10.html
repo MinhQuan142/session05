@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Billing Address</h2>
+      <label>First name:</label>
+      <input type="text" id="first-name" name="first-name" /><br /><br />
+      <label>Username:</label>
+      <input type="text" id="username" name="username" /><br /><br />
+      <label>Email (Optional):</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        value="you@example.com"
+      /><br /><br />
+      <label>Address:</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        value="1234 Main St"
+      /><br /><br />
+      <label>Address 2 (Optional):</label>
+      <input
+        type="text"
+        id="address-2"
+        name="address-2"
+        placeholder="Apartment or suite"
+      /><br /><br />
+      <label>Country:</label>
+      <select id="country" name="country">
+        <option value="">Choose...</option>
+        <!-- Add country options here --></select
+      ><br /><br />
+      <label>Last name:</label>
+      <input type="text" id="last-name" name="last-name" /><br /><br />
+      <label>State:</label>
+      <select id="state" name="state">
+        <option value="">Choose...</option>
+        <!-- Add state options here --></select
+      ><br /><br />
+      <label>Zip:</label>
+      <input type="text" id="zip" name="zip" /><br /><br />
+
+      <input type="checkbox" id="same-address" name="same-address" />
+      <label for="same-address"
+        >Shipping address is the same as my billing address</label
+      ><br /><br />
+
+      <input type="checkbox" id="save-info" name="save-info" />
+      <label for="save-info">Save this information for next time</label
+      ><br /><br />
+
+      <h2>Payment</h2>
+      <label>Payment method:</label>
+      <input
+        type="radio"
+        id="credit-card"
+        name="payment-method"
+        value="credit-card"
+      />
+      <label for="credit-card">Credit card</label>
+      <input
+        type="radio"
+        id="debit-card"
+        name="payment-method"
+        value="debit-card"
+      />
+      <label for="debit-card">Debit card</label>
+      <input type="radio" id="paypal" name="payment-method" value="paypal" />
+      <label for="paypal">PayPal</label><br /><br />
+
+      <div id="credit-card-info">
+        <label>Name on card:</label>
+        <input type="text" id="name-on-card" name="name-on-card" /><br /><br />
+        <label>Expiration:</label>
+        <input type="text" id="expiration" name="expiration" /><br /><br />
+        <label>CVV:</label>
+        <input type="text" id="cvv" name="cvv" /><br /><br />
+        <label>Credit card number:</label>
+        <input
+          type="text"
+          id="credit-card-number"
+          name="credit-card-number"
+        /><br /><br />
+      </div>
+
+      <input type="submit" value="Continue to checkout" />
+    </form>
+  </body>
+</html>
